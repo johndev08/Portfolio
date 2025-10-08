@@ -53,7 +53,7 @@
 <h2>📸 Preview</h2>
 
 <p align="center">
-  <img src="./public/portfolio-preview.png" width="800px" alt="Portfolio Preview">
+  <img src="./public/images/21portfolio.png" width="800px" alt="Portfolio Preview">
 </p>
 
 ---
