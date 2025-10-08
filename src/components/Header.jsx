@@ -36,7 +36,7 @@ function Header() {
             <li><a href="#projects" className="hover:text-blue-500 transition">Projects</a></li>
             <li><a href="#skills" className="hover:text-blue-500 transition">Skills</a></li>
             <li><a href="#about" className="hover:text-blue-500 transition">About</a></li>
-            <li><a href="#contact" className="hover:text-blue-500 transition">Contact</a></li>
+            <li><a href="#contact" className="hover:text-blue-500 transition">Contact Me</a></li>
           </ul>
         </nav>
       </div>
@@ -49,7 +49,7 @@ function Header() {
             <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#projects" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Projects</a></li>
             <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#skills" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Skills</a></li>
             <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#about" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">About</a></li>
-            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Contact</a></li>
+            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Contact Me</a></li>
           </ul>
         </nav>
       )}
