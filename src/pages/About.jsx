@@ -4,7 +4,7 @@ function About() {
       <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center">
           <img
-            src="jlm.png"
+            src="/profile-nbg.png"
             alt="John Lloyd Mortel"
             className="w-64 h-64 object-cover rounded-2xl shadow-lg border border-gray-200"
           />
