@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-portfolio.vercel.app" target="_blank">
+  <a href="https://johnlloydmortel.vercel.app/" target="_blank">
     🔗 <b>Live Demo</b>
   </a> |
   <a href="https://github.com/johndev08/Portfolio" target="_blank">
