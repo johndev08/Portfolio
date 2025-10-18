@@ -33,6 +33,7 @@ function ProjectCard({ project }) {
 
   return (
     <div
+    data-aos="fade-up"
       onMouseEnter={startCarousel}
       onMouseLeave={stopCarousel}
       onTouchStart={startCarousel}
@@ -127,7 +128,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-12">My Projects</h2>
+        <h2 data-aos="fade-up" className="text-3xl font-bold mb-12">My Projects</h2>
         <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project} />

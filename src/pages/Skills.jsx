@@ -25,7 +25,7 @@ function Skills() {
         <h2 className="text-3xl font-bold mb-12">My Skills</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <div
+            <div data-aos="fade-up"
               key={index}
               className="bg-white p-6 rounded shadow hover:shadow-md transition duration-300"
             >

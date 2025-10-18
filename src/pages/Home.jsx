@@ -4,7 +4,7 @@ function Home() {
       id="home"
       className="min-h-screen flex justify-center items-center"
     >
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+      <section data-aos="zoom-out" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
         <h1 className="text-4xl font-bold mb-2">
           Hi, I’m <span className="text-blue-900">John Lloyd Mortel</span>
         </h1>

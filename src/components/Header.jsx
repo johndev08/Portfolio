@@ -8,29 +8,22 @@ function Header() {
   };
 
   return (
-    <header className="sticky top-0 bg-white z-10 ">
+    <header  className="sticky top-0 bg-white z-10 ">
       <div className="p-4 flex justify-between items-center max-w-6xl mx-auto">
-        {/* <h1
-          className="text-2xl font-extrabold cursor-pointer hover:text-blue-900 transition"
-          onClick={reloadPage}
-        >
-          John Lloyd Mortel
-        </h1> */}
-        <div className="w-10 h-10 cursor-pointer" onClick={reloadPage}>
+
+        <div data-aos="fade-right" className="w-10 h-10 cursor-pointer" onClick={reloadPage}>
           <img src="./jlm.png" alt="" className="" />
         </div>
 
         
-        {/* Mobile Menu Button */}
-        <button
+        <button data-aos="fade-left"
           onClick={() => setMenuOpen(!menuOpen)}
           className="sm:hidden text-2xl focus:outline-none"
         >
           {menuOpen ? "✕" : "☰"}
         </button>
 
-        {/* Desktop Nav */}
-        <nav className="hidden sm:flex">
+        <nav data-aos="fade-down" className="hidden sm:flex">
           <ul className="flex gap-6 text-gray-700 font-medium">
             <li><a href="#home" className="hover:text-blue-500 transition">Home</a></li>
             <li><a href="#projects" className="hover:text-blue-500 transition">Projects</a></li>
@@ -41,7 +34,6 @@ function Header() {
         </nav>
       </div>
 
-      {/* Mobile Nav */}
       {menuOpen && (
         <nav className="sm:hidden bg-white border-t border-gray-100">
           <ul className="flex flex-col items-center gap-1 text-gray-700 font-medium">
