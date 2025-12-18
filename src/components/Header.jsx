@@ -26,9 +26,10 @@ function Header() {
         <nav data-aos="fade-down" className="hidden sm:flex">
           <ul className="flex gap-6 text-gray-700 font-medium">
             <li><a href="#home" className="hover:text-blue-500 transition">Home</a></li>
-            <li><a href="#projects" className="hover:text-blue-500 transition">Projects</a></li>
-            <li><a href="#skills" className="hover:text-blue-500 transition">Skills</a></li>
             <li><a href="#about" className="hover:text-blue-500 transition">About</a></li>
+            <li><a href="#skills" className="hover:text-blue-500 transition">Skills</a></li>
+            <li><a href="#projects" className="hover:text-blue-500 transition">Projects</a></li> 
+            <li><a href="#services" className="hover:text-blue-500 transition">Services</a></li> 
             <li><a href="#contact" className="hover:text-blue-500 transition">Contact Me</a></li>
           </ul>
         </nav>
@@ -38,9 +39,10 @@ function Header() {
         <nav className="sm:hidden bg-white border-t border-gray-100">
           <ul className="flex flex-col items-center gap-1 text-gray-700 font-medium">
             <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#home" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Home</a></li>
-            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#projects" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Projects</a></li>
-            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#skills" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Skills</a></li>
             <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#about" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">About</a></li>
+            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#skills" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Skills</a></li>
+            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#projects" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Projects</a></li>
+            <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#services" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Services</a></li>
             <li className="w-full text-center hover:bg-gray-200 p-2"><a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-blue-500 transition">Contact Me</a></li>
           </ul>
         </nav>

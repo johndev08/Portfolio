@@ -1,8 +1,9 @@
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
 import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Aos from "aos";
@@ -18,9 +19,10 @@ function App() {
       <Header />
       <main>
         <Home />
-        <Projects />
-        <Skills />
         <About />
+        <Skills />
+        <Projects />
+        <Services />  
         <Contact />
       </main>
       <Footer />
