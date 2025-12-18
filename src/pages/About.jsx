@@ -5,7 +5,7 @@ function About() {
         <div className="flex justify-center">
           <img
             data-aos="fade-right"
-            src="/public/profile-nbg.png"
+            src="/profile-nbg.png"
             alt="John Lloyd Mortel"
             className="w-64 h-64 object-cover rounded-2xl border-2 border-gray-200 hover:border-blue-800 transition duration-300"
           />
