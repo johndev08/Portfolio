@@ -37,11 +37,11 @@ function Home() {
   return (
     <div
       id="home"
-      className="min-h-screen flex justify-center items-center bg-white"
+      className="min-h-screen flex justify-center items-center bg-white dark:bg-gray-800 transition-all duration-300"
     >
       <section data-aos="zoom-out" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-        <h1 className="text-6xl font-bold mb-4 text-gray-900">
-          Hi, I'm <span className="text-blue-800">John Lloyd Mortel</span>
+        <h1 className="text-6xl font-bold mb-4 text-gray-900 dark:text-white">
+          Hi, I'm <span className="text-blue-800 ">John Lloyd Mortel</span>
         </h1>
         
         <div className="h-12 mb-6">
@@ -50,11 +50,11 @@ function Home() {
           </p>
         </div>
 
-        <p className="text-lg text-gray-600 mb-4">
+        <p className="text-lg text-gray-600 mb-4 dark:text-gray-300 max-w-xl">
           A passionate Web Developer crafting clean, responsive, and
           user-focused websites.
         </p>
-        <p className="max-w-xl text-gray-500 mb-8">
+        <p className="max-w-xl text-gray-500 mb-8 dark:text-gray-400">
           I specialize in building modern web applications with a focus on
           performance, accessibility, and elegant design. I enjoy turning ideas
           into interactive digital experiences using technologies like

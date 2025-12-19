@@ -38,7 +38,7 @@ function ProjectCard({ project }) {
       onMouseLeave={stopCarousel}
       onTouchStart={startCarousel}
       onTouchEnd={stopCarousel}
-      className="bg-white rounded p-6 shadow-md hover:shadow-lg transition duration-300 flex flex-col justify-between cursor-pointer"
+      className="bg-white dark:bg-gray-800 dark:border-gray-700 rounded p-6 shadow-md dark:shadow-sm dark:shadow-gray-700 hover:shadow-lg  flex flex-col justify-between cursor-pointer transition-all duration-300"
     >
       <div>
         <div className="relative w-full h-48 mb-4 rounded overflow-hidden">
@@ -61,14 +61,14 @@ function ProjectCard({ project }) {
           )}
         </div>
 
-        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-        <p className="text-gray-600 mb-4">{project.description}</p>
+        <h3 className="text-xl font-semibold dark:text-white mb-2">{project.title}</h3>
+        <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
 
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {project.stack.map((tech, i) => (
             <span
               key={i}
-              className="bg-white border border-gray-300 text-black text-sm font-medium px-3 py-1 rounded-full"
+              className="dark:bg-gray-700 bg-white border dark:border-gray-500 border-gray-300 dark:text-gray-300 text-black text-sm font-medium px-4 py-2 rounded-md"
             >
               {tech}
             </span>
@@ -146,13 +146,13 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-16 bg-gray-50">
+    <section id="projects" className="py-16 bg-white dark:bg-gray-800 transition-all duration-300">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 data-aos="fade-up" className="text-3xl font-bold mb-5">
+        <h2 data-aos="fade-up" className="text-3xl font-bold dark:text-white mb-5">
           My Projects
         </h2>
         <div data-aos="fade-up" className="h-0.5 w-50 bg-blue-800 mx-auto mb-8 rounded-full"></div>
-        <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-8">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-8 transition-all duration-300">
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project} />
           ))}

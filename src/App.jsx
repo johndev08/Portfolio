@@ -15,17 +15,19 @@ function App() {
     Aos.init({ duration: 1500, once: true });
   }, []);
   return (
-    <div className="md:max-w-3xl lg:max-w-5xl xl:max-w-5xl mx-auto">
-      <Header />
-      <main>
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Services />  
-        <Contact />
-      </main>
-      <Footer />
+    <div className="w-full dark:bg-gray-800 bg-white transition-all duration-300">
+      <div className="md:max-w-3xl lg:max-w-5xl xl:max-w-5xl mx-auto transition-colors duration-300">
+        <Header />
+        <main>
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <Services />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }

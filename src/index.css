@@ -1,13 +1,13 @@
 @import "tailwindcss";
-*{
-  
-    scroll-behavior: smooth;
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
