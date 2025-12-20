@@ -27,6 +27,7 @@ function Header() {
           className="w-10 h-10 cursor-pointer"
           onClick={reloadPage}
         >
+          <img src="./Hat.png" alt="Hat" className="absolute -top-1 -left-4 m-0 p-0"/>
           <img src="./jlm.png" alt="" className="block dark:hidden" />
           <img src="./jlmwht.png" alt="" className="hidden dark:block" />
         </div>

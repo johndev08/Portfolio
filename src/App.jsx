@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Snowfall from "react-snowfall";
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,9 @@ function App() {
   }, []);
   return (
     <div className="w-full dark:bg-gray-800 bg-white transition-all duration-300">
+      <Snowfall 
+        style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: 100, color: 'white' }}
+      />
       <div className="md:max-w-3xl lg:max-w-5xl xl:max-w-5xl mx-auto transition-colors duration-300">
         <Header />
         <main>
