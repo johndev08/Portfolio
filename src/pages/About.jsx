@@ -40,7 +40,7 @@ function About() {
               Contact Me
             </a>
             <a
-              href="/public/John_Lloyd_Mortel_Resume.png"
+              href="/John_Lloyd_Mortel_Resume.png"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 dark:text-white dark:border-gray-500 border-gray-300 dark:hover:border-blue-800 hover:border-blue-800 hover:bg-blue-50 dark:hover:bg-blue-800 text-gray-900 px-6 py-2 rounded-lg font-medium transition duration-300"
